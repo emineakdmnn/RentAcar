@@ -1,0 +1,3 @@
+Proje 5 katmandan oluşur: Entities, DataAccess, Business, Core, ConsoleUI ve WebAPI.
+Her operasyon kendi yöneticisi tarafından kontrol edilir ve yönetici, kaba operasyonları uygulamak için Dal sınıflarını kullanır. Tüm veri erişim katmanları, genel IEntityRepository arabirimini ortak bir anahat olarak uygular.
+Autofac IoC Container, Dependency Injection ve Aspect Odaklı Programlama için kullanılır (Aspects: ValidationAspect, CacheAspect, CacheRemoveAspect, PerformanceAspect, SecuredOperationAspect, TransactionAseptt). Doğrulama bir Çapraz Kesim Sorunudur ve AOP ile ilgili olarak Doğrulama Yönü, Interceptors kullanılarak Autofac ile oluşturulur. FluentValidation, doğrulama işlemi için kullanılan Doğrulama Aracıdır.
